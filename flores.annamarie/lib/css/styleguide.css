@@ -77,6 +77,8 @@ a:hover {
 	max-width: 960px;
 	margin-right: auto; /* center*/
 	margin-left: auto; /* center*/
+	
+
 }
 
 
@@ -473,4 +475,307 @@ offwhite:#f4f4f4;*/
 	height:100px;
 	background-color: lightgrey;
 	padding:15px;
+}
+
+
+
+
+
+
+/*  FORMS  */
+
+.form-control {
+    margin: .7em 0;
+}
+
+
+
+.form-select>select,
+.hotdog input,
+.hotdog,
+.form-button,
+.form-input,
+.form-item{
+	display:inline-block;
+	border: 1px solid var(--color-offwhite);
+	border-width:0;
+	background-color: transparent;
+	font: inherit;
+	color:inherit;
+    -webkit-appearance: none;
+    width: 100%;
+    outline: 0; /* turns off box border so you can style it differently*/
+    cursor: pointer;
+}
+
+
+.form-input{
+	border-bottom: 0.5px solid var(--color-darkgrey);
+	padding: 1em 1em 0.4em; /* Top , left, bottom ,*/
+}
+
+
+
+.form-input:focus {
+	border-bottom-color: var(--color-lightgreen); /* active state when clicked*/
+}
+
+
+.form-label-error {
+	display: inline-block;
+    background-color: transparent;
+    border-width: 0;
+    padding: 1em 1em 0.4em; /* Top , left, bottom ,*/
+    font: inherit;
+    -webkit-appearance: none;
+    color: red;
+    width: 100%;
+    border-bottom: 0.5px solid var(--color-red);
+    outline: 0;
+}
+
+
+label.\.form-label {
+    font-size: 0.8em;
+    color: grey;
+    display: block;
+    width: 100%;
+}
+
+label.\.form-label-error {
+    font-size: 0.8em;
+    color: red;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*BUTTONS*/
+.form-button{
+    background-color: var(--color-offwhite);
+    padding: .5em 1em; /* Top , left, bottom ,*/
+    border-radius: 0.2em;
+    cursor:pointer;
+    text-align: center;
+
+}
+
+.form-button:hover{
+	text-decoration: none;
+	background-color: var(--color-lightgrey)
+}
+
+.form-button:active{
+	background-color: var(--color-offwhite);
+}
+
+
+.form-button0{
+	border: 1px solid var(--color-offwhite);
+	border-radius: 0.1em;
+	background-color: var(--color-offwhite);
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+    width: 100%;
+    cursor:pointer;
+    text-align: center;
+
+}
+
+
+.form-button1{
+	border: 1px solid var(--color-lightgrey);
+	background-color: transparent;
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+    width: 100%;
+    cursor:pointer;
+	text-align: center;
+}
+.form-button2{
+	display: inline-block;
+	border: 1px solid var(--color-lightgrey);
+	background-color: transparent;
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+    cursor:pointer;
+    text-align: center;
+
+}
+.form-button3{
+	display: inline-block;
+	border-radius: 0.1em;
+	border: 1px solid var(--color-offwhite);
+	background-color: var(--color-offwhite);
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+    cursor:pointer;
+    text-align: center;
+
+}
+
+.form-button0:hover {
+	border: 1px solid var(--color-lightgrey);
+	background-color: transparent;
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+
+}
+.form-button0:active {
+
+	border: 1px solid var(--color-darkgrey);
+	background-color: transparent;
+}
+.form-button1:hover {
+	background-color: var(--color-offwhite);
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+  
+}
+.form-button1:active {
+	border: 1px solid var(--color-offwhite);
+	background-color: var(--color-offwhite);
+}
+.form-button2:hover {
+	background-color: var(--color-offwhite);
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+}
+
+.form-button2:active {
+	border: 1px solid var(--color-offwhite);
+	background-color: var(--color-offwhite);
+}
+
+.form-button3:hover {
+	border: 1px solid var(--color-offwhite);
+	background-color: var(--color-lightgrey);
+	padding: 0.4em 1em 0.4em 1em;
+	font: inherit;
+    -webkit-appearance: none;
+
+}
+
+.form-button3:active {
+	background-color: var(--color-offwhite);
+}
+
+
+
+
+/* HOT DOG*/
+
+
+.hotdog{
+	background-color: var(--color-offwhite);
+	padding: 1em 1em 0.4em; /* Top , left, bottom ,*/
+	border-radius: 2em; 
+	padding: 0.5em 1.5em;
+}
+
+
+
+
+.hotdog.dark {
+	background-color: var(--color-darkgrey);
+	color:var(--color-offwhite);
+}
+
+.hotdog.lightdark {
+	background-color: var(--color-offwhite);
+	color:black;
+}
+
+
+
+
+
+
+
+
+/* SELECT / DROP DOWN MENU */
+.form-select>select{
+	padding: 0.5em 2em 0.5em 1.2em;
+	background-color: var(--color-offwhite);
+	border-radius: 0.3em;
+
+}
+
+
+.form-select{
+	position: relative;
+
+}
+
+.form-select::after{
+	content:'▿';
+	font-family:arial,sans-serif;
+	font-size: 1.2em;
+	position:absolute;
+	top:50%;
+	right:0.2em;
+	transform: translateY(-50%);
+	pointer-events: none;
+	color:green;
+
+}
+
+
+
+
+/*  HEART CHECKBOX*/
+.hidden{
+	display:none;
+}
+
+
+
+/*  TOGGLE  */
+
+.toggle label{
+	font-size: 1.2rem;
+	display:inline-block;
+	width:2em;
+	height:1em;
+	border:0.1em solid var(--color-darkgrey);
+	border-radius: 1em;
+	position: relative;
+}
+
+.toggle label::after {
+	content:'';
+	display:inline-block;
+	width:0.8em;
+	height:0.8em;
+	border:0.1em solid var(--color-lightgrey);
+	border-radius: 1em;
+	position: absolute;
+	background-color: var(--color-darkgrey);
+	transition: all 0.3s;
+
+}
+
+.toggle input:checked + label::after{
+	transform: translateX(1em);
+}
+
+
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: .5px solid var(--color-lightgrey);
 }

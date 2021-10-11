@@ -4,6 +4,7 @@
 
 body {
 	background-color: var(--color-white);
+    padding-bottom: 6em; /*Space on the bottom of page*/
 }
 
 
@@ -93,6 +94,36 @@ body {
             padding:0;
         }
 }
+
+
+
+
+
+/* HEART CHECKBOX */
+.favorite label{
+    transition: all 0.3s;
+    display: inline-block;
+    transform: scale(2,2);
+    color:var(--color-lightgreen);
+    cursor: pointer;
+}
+
+.favorite input:checked + label {
+    color:red;
+    transform: scale(3,3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

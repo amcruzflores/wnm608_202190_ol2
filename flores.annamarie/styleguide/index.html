@@ -61,6 +61,7 @@
 <div class="container" id="tableofcontents">
 	<h2> Table of Contents</h2>
 
+<hr color="var(--color-offwhite)" size="1" width="100%">
 
 	<div class="card soft">
 	<nav class="nav">
@@ -76,6 +77,14 @@
 			<li><a href="#flexsystem">Flex System</a></li>
 			<li><a href="#tables">Tables</a></li>
 			<li><a href="#figures">Figures</a></li>
+			<li><a href="#forms">Forms</a></li>
+			<li><a href="#inputs">Inputs</a></li>
+			<li><a href="#buttons">Buttons</a></li>
+			<li><a href="#search">Search Component</a></li>
+			<li><a href="#select">Select Component</a></li>
+			<li><a href="#checkbox">Check Box</a></li>
+			<li><a href="#toggle">Toggle</a></li>
+			<li><a href="#herobanner">Hero Banner</a></li>
 
 	</ul>
 	</nav>	
@@ -86,6 +95,7 @@
 
 <div class="container" id="typography">
 	<h2> Typography</h2>
+	
 
 	<div class="card soft" id="headings">
 
@@ -110,6 +120,7 @@
 
 <div class="container" id="paragraphs">
 	<h2>Paragraphs</h2>
+	<hr color="var(--color-offwhite)" size="1" width="100%">
 	<div class="card soft">
 	
 
@@ -134,7 +145,7 @@
 
 <div class="container" id="cards">
 	<h2>Cards</h2>
-	
+	<hr color="var(--color-offwhite)" size="1" width="100%">	
 	<div class="grid gap">
 
 		<div class="col-xs-12 col-md-4">
@@ -199,6 +210,8 @@
 
 <div class="container" id="colorpalette">
 	<h2>Color Palette</h2>
+
+	<hr color="var(--color-offwhite)" size="1" width="100%">
 	
 	<div class="grid gap">
 
@@ -236,6 +249,7 @@
 <div class="container" id="viewwindow">
 
 	<h2>View Window</h2>
+	<hr color="var(--color-offwhite)" size="1" width="100%">
 
 	<div class="view-window" style="background-image:url('../img/greenproduce.jpg')"> 
 	</div>
@@ -257,7 +271,7 @@
 <div class="container" id="navigations">
 
 	<h2>Navigations</h2>
-
+<hr color="var(--color-offwhite)" size="1" width="100%">
 <!-- JS NAVIGATION-->
 
 	<script>
@@ -452,7 +466,7 @@
 
 <div class="container" id="gridsystem">
 	<h2>Grid System</h2>
-
+<hr color="var(--color-offwhite)" size="1" width="100%">
 
 
 	<div class="container">
@@ -559,6 +573,7 @@
 
 <div class="container" id="flexsystem">
 	<h2>Flex System</h2>
+	<hr color="var(--color-offwhite)" size="1" width="100%">
 	<div class="card soft">
 		<div class="flexboxContainerNav">
 
@@ -627,7 +642,7 @@ const makeTable = (classes='') => {
 
 <div class="container" id="tables">
 	<h2>Tables</h2>
-
+<hr color="var(--color-offwhite)" size="1" width="100%">
 		<!-- div.card.soft -->
 	<div class="card soft">	
 			<h3>Basic Table</h3>
@@ -687,7 +702,7 @@ const makeTable = (classes='') => {
 <div class="container" id="figures">
 
 	<h2>Figures</h2>
-
+<hr color="var(--color-offwhite)" size="1" width="100%">
 	    <div class="card soft">
 	    <figure class="figure">
 		<img src="https://via.placeholder.com/400x400?text=product" alt="">
@@ -727,6 +742,9 @@ const makeTable = (classes='') => {
 		</figure>
 		</div>
 	</div>
+
+
+
 
 
 <!-- PRODUCT GRID , CSS STYLE FOUND IN STORETHEME.CSS -->
@@ -836,9 +854,390 @@ const makeTable = (classes='') => {
 
 
 
+<!-- FORMS   -->
+	<div class="container" id="forms">
+		
+		<h2>Forms</h2>
+<hr color="var(--color-offwhite)" size="1" width="100%">
+		<h3>Inputs</h3>
+		<div class="card soft" id="inputs">
+			<h3>Default Inputs</h3>
+			<form>
+				<input type="text"><br>
+				<input type="number"><br>
+				<input type="password"><br>
+				<input type="url"><br>
+				<input type="email"><br>
+				<input type="datetime-local"><br>
+				<input type="date"><br>
+				<input type="search"><br>
+			</form>	
+
+			<h3>Default Form Input</h3> <!-- NO CLASS-->
+			<form>
+				<input type="text" placeholder="Text"><br>
+				<input type="number" placeholder="Value"><br>
+				<input type="password" placeholder="Password"><br>
+				<input type="search" placeholder="Search"><br>
+			</form>
+
+			<h3>Default Form Label</h3>  <!-- NO CLASS--> 
+			<label>Example</label>
+				<input type="text" placeholder="Text"><br>
+			<label>Example</label>
+				<input type="number" placeholder="Value"><br>
+			<label>Example</label>
+				<input type="password" placeholder="Password"><br>
+			<label>Example</label>
+				<input type="search" placeholder="Search"><br>
+			</form>
+
+			<h3>Form Input</h3> <!--Same Style Class = "form-input"-->
+			<form>
+			<input type="text" placeholder="Text" class="form-input"><br>
+			<input type="number" placeholder="Value" class="form-input"><br>
+			<input type="password" placeholder="Password" class="form-input"><br>
+			<input type="search" placeholder="Search" class="form-input"><br>
+			</form>
+
+			<h3>Form Label | Option 1</h3> <!--OPTION 1. Same Style Class = "form-input"-->
+			<form>
+			<label class="">Name</label><br>
+				<input type="text" placeholder="Text" class="form-input">
+			<label class="">Amount</label>
+				<input type="number" placeholder="Value" class="form-input"><br>
+			<label class="">Debit / Credit Card Number</label>
+				<input type="password" placeholder="Password" class="form-input"><br>
+			<label class="">Search</label>
+				<input type="search" placeholder="Search" class="form-input"><br>
+			</form>
+
+
+			<h3>Form Label | Option 2</h3> <!--OPTION 2. Style Class = .form-label"-->
+			<form>
+			<label class=".form-label">Name</label>
+				<input type="text" placeholder="Text" class="form-input">
+			<label class=".form-label-error">Input with Error. Please correct error.</label>
+				<input type="text" placeholder="Text" class="form-input">
+			<label class=".form-label">Amount</label>
+				<input type="number" placeholder="Value" class="form-input"><br>
+			<label class=".form-label">Debit / Credit Card Number</label>
+				<input type="password" placeholder="Password" class="form-input"><br>
+			<label class=".form-label">Search</label>
+				<input type="search" placeholder="Search" class="form-input"><br>
+			</form>
+
+			<h3>Form Label | Option 3</h3> <!--OPTION 3. "form-control" .Style Class = .form-label"-->
+			<form>
+				<div class="form-control">
+					<label class=".form-label">Name</label>
+					<input type="text" placeholder="Text" class="form-input">
+				</div>
+
+				<div class="form-control">
+				<label class=".form-label-error">Input with Error. Please correct error.</label>
+				<input type="text" placeholder="Text" class="form-input">
+				</div>
+
+				<div class="form-control">
+					<label class=".form-label">Amount</label>
+					<input type="number" placeholder="Value" class="form-input"><br>
+					</div>
+				<div class="form-control">
+					<label class=".form-label">Debit / Credit Card Number</label>
+						<input type="password" placeholder="Password" class="form-input"><br>
+						</div>
+				<div class="form-control">
+					<label class=".form-label">Search</label>
+					<input type="search" placeholder="Search" class="form-input"><br>
+					</div>
+			</form>
+
+			<h3>Form Label | Option 4</h3> <!--OPTION 4. "form-control display-flex" .Style Class = .form-label"-->
+			<form>
+				<div class="form-control display-flex">
+					<div class="flex-none">
+					<label class=".form-label">Name</label>
+					</div>
+					<div class="flex-stretch">
+					<input type="text" placeholder="Text" class="form-input">
+					</div>
+					<div class="flex-none">
+					<label class=".form-label">Billing Address</label>
+					</div>
+					<div class="flex-stretch">
+					<input type="text" placeholder="Text" class="form-input">
+					</div>
+				</div>
+				<div class="form-control display-flex flex-align-center">
+					<div class="flex-none">
+					<label class=".form-label">Debit / Credit Card Number</label>
+					</div>
+					<div class="flex-stretch">
+					<input type="password" placeholder="" class="form-input">
+					</div>
+					<div class="flex-none">
+					<label class=".form-label">Expiration Date</label>
+					</div>
+					<div class="flex-stretch">
+					<input type="password" placeholder="**/**" class="form-input">
+					</div>
+					<div class="flex-none">
+					<label class=".form-label">CVS Code</label>
+					</div>
+					<div class="flex-stretch">
+					<input type="password" placeholder="CVS" class="form-input">
+					</div>
+				</div>
+				<div class="form-control">
+					<label class=".form-label">Amount</label>
+					<input type="number" placeholder="Value" class="form-input"><br>
+					</div>
+				<div class="form-control">
+					<label class=".form-label">Debit / Credit Card Number PIN Number</label>
+						<input type="password" placeholder="Password" class="form-input"><br>
+						</div>
+				<div class="form-control">
+					<label class=".form-label">Search</label>
+					<input type="search" placeholder="Search" class="form-input"><br>
+					</div>
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+<!--  BUTTONS  -->
+
+<div class="container" id="buttons">
+	<h2>Buttons</h2>
+
+	<div class="card soft">
+		
+		<h3>Default Button</h3>
+		<button>Button</button>
+
+		<h3>Form Buttons</h3>
+	<div class="form-control">
+	
+		<button type="button" class="form-button">Button</button>
+	</div>
+	<div class="form-control">
+		<input type="button" class="form-button" value="Input">
+	</div>
+	<div class="form-control">
+		<a href="#" class="form-button">Anchor</a>
+	
+	</div>
+
+
+		<h3>Form Button 1</h3>
+		<button class="form-button0">Confirm</button>
+		<h3>Form Button 2</h3>
+		<button class="form-button1">Confirm</button>
+	
+
+		<h3>Form Button Options </h3>
+		<button class="form-button2">Submit</button>
+		<button class="form-button3">Submit</button>
+		
+	</div>
+
+
+
+
+
+
+<!--  "HOT DOG"  / SEARCH INPUTS -->
+
+	<h2 id="search">Search Inputs</h2>
+<hr color="var(--color-offwhite)" size="1" width="100%">
+	<div class="card soft">
+
+		<div class="form-control">
+			<h3>Default Search Input</h3>
+		
+			<form>
+				<input type="search" placeholder="Search">
+			</form>
+		</div>
+
+		
+
+		<div class="form-control">
+			<h3>HOTDOG Search Input Options</h3>
+			<form class="hotdog">
+				<!--<span>&equiv;</span>  | ICON INPUT INSIDE HOTDOG-->
+				<input type="search" placeholder="Search" >
+			</form>
+			</div>
+
+			<div class="form-control">
+			<form>
+				<input type="search" class="hotdog dark" placeholder="Search" >
+			</form>
+			</div>
+
+
+		<div class="form-control">
+			<form class="card dark">
+				<input type="search" class="hotdog lightdark" placeholder="Search" >
+			</form>
+		</div>
+
+
+		<div class="form-control">
+			<form class="card lightgrey">
+				<input type="search" class="hotdog lightdark" placeholder="Search" >
+			</form>
+		</div>
+
+		<div class="form-control">
+			<form class="card darkgrey">
+				<input type="search" class="hotdog lightdark" placeholder="Search" >
+			</form>
+		</div>
+
+
+
+	</div>
+
+
+
+<!--   SELECT COMPONENT  -->
+
+
+<h2 id="select">Select Component</h2>
+<hr color="var(--color-offwhite)" size="1" width="100%">
+	<div class="card soft">
+		<h3>Default Select</h3>
+		<select> 
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			</select>
+
+
+
+		
+		<h3>Select</h3>
+		<div class="form-control">
+		<div class="form-select">
+		<select> 
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			</select>
+		</div>
+		</div>
+
+		<div class="display-flex">
+			<div class="flex-stretch"></div>
+			<div class="flex-none"></div>
+			<div class="form-select">
+		<select> 
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			</select>
+		</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+<!--    CHECK BOXES -->
+
+	<h2 id="checkbox">Check Boxes</h2>
+	<hr color="var(--color-offwhite)" size="1" width="100%">
+	<div class="card soft">
+		
+		<h3>Default Check Box</h3>
+		<input type="checkbox">
+
+
+		<h3>Check Box</h3><!--Label wrapping checkbox will activate an input-->
+		<label>Label <input type="checkbox" id="input-1"></label>
+		<label for="input-1">Label</label>
+	
+		<h3>Heart Checkbox</h3>
+		<div class="favorite">
+		<input type="checkbox" id="heart-example" class="hidden">
+		<label for="heart-example">&hearts;</label>
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+
+	<!--  TOGGLE  -->
+
+	<h2 id="toggle">Toggle</h2>
+	<hr color="var(--color-offwhite)" size="1" width="100%">
+	<div class="card soft">
+		<div class="toggle">
+			<input type="checkbox" id="toggle-1" class="hidden">
+			<label for="toggle-1"></label>
+		</div>
+
+		<!-- <div class="toggle" style="font-size: 2em">
+			<input type="checkbox" id="toggle-2" class="hidden">
+			<label for="toggle-2"></label>
+		</div>
+		-->
+
+		<div class="display-flex">	
+		<div class="flex-none">	
+		</div>
+		</div>	
+	
+
+	</div>
+
+
+
+
+
+
+
+
+<!--HERO BANNER -->
+
+
+<div class="container" id="herobanner">
+
+	<h2>Hero Banner</h2>
+<hr color="grey" size="1" width="100%">
+	    <div class="card soft">
+	    	
+	    <figure class="figure">
+		<img src="../img/heroFamilyBanner.jpg" alt="">
+
+	    </figure>
+		</div>
+
+
+
+
+
+
+</div><!--  THE END  -->
+
 
 </body>
-
-
-
 </html>
