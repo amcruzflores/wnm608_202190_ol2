@@ -35,6 +35,7 @@
 body {
 	margin:0; /*Turn off orignal/ default margin. Margin Reload*/
 	font-size:100%;
+	line-height: 1.6em;/* per Instructor so its easier to read when there are multiple lines*/
 	font-family:var(--font-sans);
 }
 
@@ -778,4 +779,40 @@ hr{
     margin-top: 0;
     margin-bottom: 0;
     border-top: .5px solid var(--color-lightgrey);
+}
+
+.notifySuccess {
+	background-color: #2E6E60;
+	color:white;
+	padding:13px;
+	font-weight:bold;
+	border-radius: .2em;
+	cursor: pointer;
+
+}
+
+.notifyWarning {
+	background-color: #F3A847;
+	color:black;
+	padding:13px;
+	font-weight:bold;
+	border-radius: .2em;
+	cursor: pointer;
+
+}
+
+.notifyError {
+	border-style: solid;
+	border-color:#B12704;
+	color:#B12704;
+	padding:13px;
+	border-radius: .2em;
+	cursor: pointer;
+
+}
+
+.notifyButton {
+		float: right;
+		margin-left: 20px;
+
 }
