@@ -31,12 +31,19 @@
 
 }
 	
-
+/*WEB FONT*/
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=ae5bc32c-9e9e-4325-a69a-c4e20ea439e3&fontids=5560490,5664085");
+    @font-face{
+     font-family:"Meta Serif W05 Medium";
+        src:url("Fonts/5560490/8d862484-f160-480f-867d-5dab58b989b6.woff2") format("woff2"),url("Fonts/5560490/eefee063-791d-4c92-a3f2-94236fb9ce9a.woff") format("woff");
+    }
+    
 body {
 	margin:0; /*Turn off orignal/ default margin. Margin Reload*/
 	font-size:100%;
 	line-height: 1.6em;/* per Instructor so its easier to read when there are multiple lines*/
 	font-family:var(--font-sans);
+	padding: 20px;
 }
 
 h1,
@@ -44,7 +51,8 @@ h2,
 h3,
 h4,
 h5 {
-	font-family:Meta Serif W05 Medium;
+	font-family: Meta Serif W05 Medium ,Nunito Sans, sans-serif;
+	color:#346734;
 }
 
 a {
@@ -59,23 +67,13 @@ a:hover {
 
 
 
-/*WEB FONT*/
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=ae5bc32c-9e9e-4325-a69a-c4e20ea439e3&fontids=5560490,5664085");
-    @font-face{
-     font-family:"Meta Serif W05 Medium";
-        src:url("Fonts/5560490/8d862484-f160-480f-867d-5dab58b989b6.woff2") format("woff2"),url("Fonts/5560490/eefee063-791d-4c92-a3f2-94236fb9ce9a.woff") format("woff");
-    }
-     @font-face{
-        font-family:"Helvetica Neue LT W05 45 Light";
-        src:url("Fonts/5664085/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"),url("Fonts/5664085/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff");
-    }
- 
+
 
 
 /* LAYOUT CLASSES */
 
 .container {
-	max-width: 960px;
+	max-width: 1024px;
 	margin-right: auto; /* center*/
 	margin-left: auto; /* center*/
 	
@@ -107,14 +105,22 @@ a:hover {
 
 }
 
+.article-body{
+	padding: 15px;
+
+}
+
 .articleImg{
+	padding: 15px;
 
 }
 .produce_image {
-	width: 500px;
-	height: 300px;
+	width: 700px;
+	height: 450px;
 	float: right;
-	margin: 40px;
+	margin: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 	
 }
 
@@ -126,10 +132,10 @@ a:hover {
 }
 
 .company_image{
-	width: 700px;
-	height: 500px;
+	width: 900px;
+	height: 600px;
 	float: center;
-	margin-left: 30px;
+
 }
 
 
@@ -253,8 +259,8 @@ a:hover {
 
 
 .navbar {
-	background-color:var(--color-offwhite);
-	color:green; 	/*text color*/
+	background-color:#f2f2f2;
+	color:#346734; 	/*text color*/
 	line-height: var(--header-height);
 	padding:20px;
 }
@@ -262,7 +268,7 @@ a:hover {
 	.navbar h1 {
 		font-size:23px;
 		margin:0;
-		font-family: Helvetica Neue LT W05 45 Light; 
+		font-family: Nunito Sans; 
 	}
 
 	.navbar a {
@@ -290,7 +296,7 @@ a:hover {
 		position: relative;
 	}
 		.card.soft {
-			border-radius: 0.5em;
+			/*border-radius: 0.5em;*/
 			box-shadow: 0 0 10px rgba(0,0,0,0.1);
 		}
 
@@ -361,7 +367,8 @@ offwhite:#f4f4f4;*/
 
 
 .view-window {
-	height:50vh; 	/* view size */
+	height:130vh; 	/* view size */
+
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
