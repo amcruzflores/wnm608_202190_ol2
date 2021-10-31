@@ -224,9 +224,8 @@ echo "<hr>";
 echo "<pre>",print_r($colorsObject),"</pre>";
 
 
-//Function - needs values passed into them
-
-
+//**************** FUNCTION ***************
+//needs values passed into them
 function print_p($v){
 	echo "<pre>",print_r($v),"</pre>";
 	}

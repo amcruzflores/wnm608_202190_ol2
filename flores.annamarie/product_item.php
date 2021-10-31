@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Product List - PHP</title>
+	<title>Product Item</title>
 
 	<?php include "parts/meta.php"; ?>
 
