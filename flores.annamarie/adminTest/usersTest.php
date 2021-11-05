@@ -41,10 +41,10 @@ switch ($_GET['action']) {
 	file_put_contents($filename,json_encode($users_array));
 	header("location:{$_SERVER['PHP_SELF']}?id=$id");
 	break;
+
+
 	case "delete":
-	array_splice($users_array,$_GET['id'],1);
-	file_put_contents($filename,json_encode($users_array));
-	header("location:{$_SERVER['PHP_SELF']}");
+	deleteUser($_GET['id']);
 	break;
 	
 }
@@ -52,6 +52,14 @@ switch ($_GET['action']) {
 }
 
 
+function deleteUser($id)
+{
+	$users_array= $GLOBALS['users_array'];
+	array_splice($users_array,'id',1);
+	file_put_contents($GLOBALS['filename'], json_encode($users_array));
+	header("location:{$_SERVER['PHP_SELF']}");
+
+}
 
 function showUserPage($user) {
 

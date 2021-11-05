@@ -40,11 +40,24 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/mango_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Mango</div>
+					<div>7.00</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+		
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/ginger_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Ginger</div>
+					<div>4.99</div>
 			</div>
 			</figcaption>
 		</figure>
@@ -54,11 +67,59 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/banana_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Banana</div>
+					<div>1.99</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/carrot_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Carrot</div>
+					<div>5.99</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/blueberries_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Blueberries</div>
+					<div>2.99</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/strawberries_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Strawberries</div>
+					<div>2.99</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/cucumber_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Cucumber</div>
+					<div>4.99</div>
 			</div>
 			</figcaption>
 		</figure>
@@ -68,11 +129,25 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/celery_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Celery</div>
+					<div>4.99</div>
+			</div>
+			</figcaption>
+		</figure>
+		</div>
+		
+
+
+		<div class="col-xs-12 col-md-4">
+			<figure class="figure product-overlay">
+		<img src="img/lemon_1.jpg" alt="">
+			<figcaption>
+			<div class="caption-body">
+					<div>Lemon</div>
+					<div>2.99</div>
 			</div>
 			</figcaption>
 		</figure>
@@ -80,11 +155,11 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/lime_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Lime</div>
+					<div>2.99</div>
 			</div>
 			</figcaption>
 		</figure>
@@ -92,11 +167,11 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/apple_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Fuji Apple</div>
+					<div>4.99</div>
 			</div>
 			</figcaption>
 		</figure>
@@ -104,15 +179,16 @@
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
-		<img src="https://via.placeholder.com/400x400?text=product" alt="">
+		<img src="img/pineapple_1.jpg" alt="">
 			<figcaption>
 			<div class="caption-body">
-					<div>Product Name</div>
-					<div>6.99</div>
+					<div>Pineapple</div>
+					<div>$6.00</div>
 			</div>
 			</figcaption>
 		</figure>
 		</div>
+
 
 	</div>
 
