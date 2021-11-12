@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Product List - PHP</title>
+	<title>Product List</title>
 
 <?php include "parts/meta.php"; ?>
 
@@ -17,7 +17,6 @@
 		
 
 <div class="container">
-	<div class=" card soft">
 		<h2>Product List</h2>
 
 
@@ -30,13 +29,13 @@
 
 
 
-		
+	
 
 <!-- PRODUCT GRID , CSS STYLE FOUND IN STORETHEME.CSS -->
 
-	<div class="grid gap">
+	<!--<div class="grid gap">
 
-		<!--   .col-xs-12.col-md-4*3>   -->
+
 
 		<div class="col-xs-12 col-md-4">
 			<figure class="figure product-overlay">
@@ -191,13 +190,14 @@
 
 
 	</div>
+-->
 
 
 
 
 
 
-		<!-- ul>li*4>a[href="product_item.php"]>{Product $} -->
+		<!-- ul>li*4>a[href="product_item.php"]>{Product $}
 		<ul>
 			<li><a href="product_item.php?id=apple">Product 1: Apple</a></li>
 			<li><a href="product_item.php?id=pear">Product 2: Pear</a></li>
@@ -206,8 +206,29 @@
 			<li><a href="product_item.php?id=ginger">Product 5: Ginger</a></li>
 			<li><a href="product_item.php?id=avocado">Product 6: Avocado</a></li>
 		</ul>
-	</div>
-	
+		 -->
+
+
+<?php
+
+include_once "lib/php/functions.php";
+include_once "parts/template.php";
+
+$result= makeQuery(
+	makeConn(),
+	"
+	SELECT * 
+	FROM `products`
+	ORDER BY `date_create` DESC
+	LIMIT 12
+	"
+	);
+
+	//print_p($result);
+	echo "<div class='grid gap'>",array_reduce($result,'productListTemplate'),"</div>";
+
+	?>
+
 
 </div>
 

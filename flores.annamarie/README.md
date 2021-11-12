@@ -7,3 +7,5 @@
 - PHP Info: https://annamarieflores.com/phpinfo.php
 - Admin Page: https://annamarieflores.com/aau/wnm608/flores.annamarie/adminpg/index.php
 - Users Admin Page: https://annamarieflores.com/aau/wnm608/flores.annamarie/adminpg/users.php
+- Product Store: https://annamarieflores.com/aau/wnm608/flores.annamarie/product_list.php
+- Product Cart: https://annamarieflores.com/aau/wnm608/flores.annamarie/product_cart.php

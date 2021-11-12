@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Annamarie Website</title>
+	<title>Prospect Market</title>
 
 
 	<meta name="viewport" content="width=device-width">

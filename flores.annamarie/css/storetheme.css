@@ -8,27 +8,28 @@ body {
 }
 
 
-/*WEB FONTS*/
-
-	@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=ae5bc32c-9e9e-4325-a69a-c4e20ea439e3&fontids=5560490,5664085");
-    @font-face{
-        font-family:"Meta Serif W05 Medium";
-        src:url("Fonts/5560490/8d862484-f160-480f-867d-5dab58b989b6.woff2") format("woff2"),url("Fonts/5560490/eefee063-791d-4c92-a3f2-94236fb9ce9a.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 45 Light";
-        src:url("Fonts/5664085/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"),url("Fonts/5664085/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff");
-    }
-
-
 
 .figure.product {
     border-radius: 0.4em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow:hidden;
+    height:100%;
+    transition: all 0.3s;
 }
 
+.product.figure img {
+    height:100%;
+    object-fit: contain;
+}
 
+.productlist a {
+    text-decoration: none;
+    font-weight: initial;
+}
+
+.product.figure:hover {
+    box-shadow:0 2px 15px rgba(0,0,0,0.2); 
+}
 
 
 .product-overlay {
@@ -113,7 +114,25 @@ body {
     transform: scale(3,3);
 }
 
+.images-main {
+    width:100%;
+    height:40vh;
+    object-fit: contain;
+}
 
+
+.images-thumbs img{
+    width:8em;
+    height:6em;
+    object-fit: contain;
+
+}
+
+.images-thumbs {
+    margin:30px;
+    padding:30px;
+   
+}
 
 
 
