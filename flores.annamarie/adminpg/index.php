@@ -1,6 +1,6 @@
 <?php
 
-include "../lib/php/functions.php";
+include_once "../lib/php/functions.php";
 
 //$filename ="notes.json";
 //$file = file_get_contents($filename);
