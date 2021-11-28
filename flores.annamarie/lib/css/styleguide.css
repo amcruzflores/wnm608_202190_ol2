@@ -498,6 +498,10 @@ offwhite:#f4f4f4;*/
 
 /*  FORMS  */
 
+.form-control-sortfilter {
+    margin: 1em;
+}
+
 .form-control {
     margin: .7em 0;
 }
@@ -572,6 +576,7 @@ label.\.form-label-error {
 
 
 /*BUTTONS*/
+
 .form-button{
     background-color: var(--color-offwhite);
     padding: .5em 1em; /* Top , left, bottom ,*/

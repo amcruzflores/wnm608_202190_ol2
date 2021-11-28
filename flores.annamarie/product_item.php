@@ -67,8 +67,7 @@ $image_elements = array_reduce($images,function($r,$o){
 						<option>6</option>
 						<option>7</option>
 						<option>8</option>
-						
-					</select>
+						</select>
 					</div>
 				</div>
 					<div class="form-control">
