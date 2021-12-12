@@ -7,7 +7,7 @@ include_once "parts/template.php";
 	<meta charset="UTF-8">
 	
 	<title>Prospect Market</title>
-
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 	<meta name="viewport" content="width=device-width">
 
@@ -22,33 +22,24 @@ include_once "parts/template.php";
 
  
 
-<body>
+<body class="flush">
 	<?php include "parts/navbar.php"; ?>
 	<!--EMMET string:  header>h1+p -->
 	
-<div class="view-window" style="background-image:url('img/prospectBanner.jpg')"> 
+<div class="view-window" style="background-image:url('img/bounty1.png')"> 
 	</div>
 
 	<!-- EMMET string:  .containter>article#article$.article*4>h2{Article $}+div.article-body>p*3>lorem40  -->
 	<div class="container">
-
-<div class="form-control">
-			<form class="hotdog">
-				<!--<span>&equiv;</span>  | ICON INPUT INSIDE HOTDOG-->
-				<input type="search" placeholder="Search" >
-			</form>
-</div>
-
-
 
 
 <h2> Products, News & Latest Produce</h2>
 
 
 <div class="container">
-	<h2>Lastest Fruit</h2>
+	<h3>Lastest Fruit</h3>
 	<?php recommendedCategory("fruit"); ?>
-	<h2>Lastest Vegetables</h2>
+	<h3>Lastest Vegetables</h3>
 	<?php recommendedCategory("vegetable"); ?>
 </div>
 
@@ -79,6 +70,7 @@ include_once "parts/template.php";
 				<img class="produce_image" src="img/prospectOldCouple.jpg" alt="Image"> 
 				<p class="articleImg">We offer a wide selection of fresh produce hand picked from our communities local farmers. Our purpose is to provide and deliver sustainable, organic, non- pesticide whole foods to our community and those in need. Our marker is online so all of our items are listed in our catalog page where you have the freedom of choice to select what produce is available.</p>
 				<p class="articleImg">We also offer delivery services for those who need assistance with picking , carrying and transporting food. We will deliver what ever is on your shopping list..</p>
+				<img class="produce_image" src="img/bounty.png" alt="bountyImage"> 
 				<p class="articleImg">Serving our clients and community is a priority. We would love to have you as a member of our company so please register for an account or subscribe to our newletters to be updated with discounts, sales, new items and to keep in touch!</p>
 			</div>
 		</article>
